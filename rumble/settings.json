@@ -6,14 +6,14 @@
     },
     "Play Game": {
         "Mode": "dice",
-        "Currency": "doge",
+        "Currency": "btt",
         "Show Price": "ON",
         "Delay Bet(ms)": "0",
         "Classic Display": "False"
     },
     "Target": {
         "Profit (amt)": "0",
-        "Profit (%)": "50",
+        "Profit (%)": "10000",
         "Balance": "0",
         "Lose": "0"
     },
@@ -60,7 +60,7 @@
         }
     },
     "Bet Amount": {
-        "Base Bet": "0.000001",
+        "Base Bet": "0.0001",
         "Preroll Bet": "0.00000001",
         "Shoot Bet": "5",
         "Auto Shoot": {
@@ -126,14 +126,14 @@
         "JackHunter": {
             "Status": "OFF",
             "Chance to Win": {
-                "Min": "20",
-                "Max": "24"
+                "Min": "10",
+                "Max": "15"
             },
-            "Increase bet if Lose": "1.65",
-            "Trigger Change Repeat": "5",
-            "Trigger Change on LS 1": "10",
-            "Trigger Change on LS 2": "15",
-            "Trigger Change on LS 3": "25"
+            "Increase bet if Lose": "1.286",
+            "Trigger Change Repeat": "25",
+            "Trigger Change on LS 1": "35",
+            "Trigger Change on LS 2": "45",
+            "Trigger Change on LS 3": "55"
         },
         "RumbleNote": {
             "Status": "OFF",
@@ -188,19 +188,19 @@
             }
         },
         "Sprint-X": {
-            "Status": "OFF",
+            "Status": "ON",
             "Chance to Win": "9.7",
-            "Base Divider": "50000",
+            "Base Divider": "500000",
             "Multi": "1.10",
             "Boost": "2",
             "Cut Lose": {
                 "On LS": "50",
-                "Bet Divider": "5000",
+                "Bet Divider": "50000",
                 "Multi": "1.25"
             }
         },
         "R-Allemb": {
-            "Status": "ON",
+            "Status": "OFF",
             "Allemb Level": {
                 "Repeat": "2",
                 "Big": "10"
@@ -221,7 +221,7 @@
         },
         "Wager": {
             "Status": "OFF",
-            "Target Wager(%)": "10000",
+            "Target Wager(%)": "1000",
             "Mode 1": {
                 "Status": "ON",
                 "Chance to Win": "47.97"
